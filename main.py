@@ -5,7 +5,6 @@ def move_button():
     no_btn.place(x=randint(0, 100), y=randint(0, 100))
 
 def replace_text():
-    global text
     lbl.config(text="Knew it")
     yes_btn.destroy()
     no_btn.destroy()
